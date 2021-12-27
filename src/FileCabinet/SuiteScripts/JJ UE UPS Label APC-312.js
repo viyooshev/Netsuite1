@@ -381,7 +381,7 @@ define(['N/search','N/https','N/record','N/file','N/url','N/redirect','N/render'
                 }
             }
         } catch (err) {
-            log.error("error@afterSubmit", err);
+            log.error("Error @afterSubmit", err);
         }
 
     }
